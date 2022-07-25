@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Secret Friend</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Rochester&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Besley&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <!-- Style -->
+  <link rel="stylesheet" href="./assets/style/bootstrap.css">
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <!-- ***** Navbar ***** -->
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Secret Friend <img src="./assets/images/letter.png" alt="letter"
+          width="40"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        id="navbar-toggler-buttom">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#de-que-se-trata">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./form-participants.html">Formulario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#members">Participantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cuestionario">Cuestionario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+        <img src="./assets/images/calendar-01.png" alt="calendar" width="40" id="calendar-img">
+        <span id="spanDate">today</span>
+      </div>
+
+    </div>
+  </nav>
+  <!-- ***** End Navbar ***** -->
+
+  <!-- ***** Header ***** -->
+  <header>
+    <h1 class="header-main-text">
+      My Secret Friend
+      <img src="./assets/images/letter.png" alt="letter" width="70" id="header-letter">
+    </h1>
+    <hr class="yellow-line">
+    <p class="header-sub-text">
+      <i class="bx bxs-quote-alt-left bx-tada bx-md"></i>
+      La amistad es un alma que habita en dos cuerpos, <br>
+      y un corazón que habita en dos almas
+      <i class="bx bxs-quote-alt-right bx-tada bx-md"></i>
+    </p>
+
+  </header>
+  <!-- ***** End Header ***** -->
+
+  <!-- ***** Section: What is My Secret Friend ***** -->
+  <section class="bg-yellow-light">
+    <div class="container">
+      <div class="title-section" id="de-que-se-trata">
+        <h2> <strong> ¿De qué se trata <div class="my-brand"> My Secret Friend</div>?</strong></h2>
+      </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-container">
+              <div class="float-layout">
+                <div class="card-image">
+                  <img class="img-fluid d-block" src="./assets/images/friends-09.png">
+                  <div class="card" id="card-text-01">
+                    <div class="card-title">¿Jugamos a <div class="my-brand">My Secret Friend</div>?</div>
+                    <div class="card-desc">
+                      <p>En Venezuela, a finales de 1800, estaba mal visto que las mujeres casadas o comprometidas
+                        tengan amigos, entonces, armaron una reunión e inventaron un particular juego: cada asistente
+                        debía sacar un papelito con un nombre al azar y hacerle un regalo a esa persona sin que sepa
+                        quién fue el destinatario.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-container">
+              <div class="float-layout">
+                <div class="card-image">
+                  <img class="img-fluid d-block" src="./assets/images/friends-13.png">
+                  <div class="card" id="card-text-02">
+                    <div class="card-title">¿Cuándo termina el misterio?</div>
+                    <div class="card-desc">
+                      <p>¿Cómo lo jugamos? Primero tendrás que conocer quién es tu Secret Friend.
+                        En este intercambio de regalos vas a buscar el obsequio ideal para quien te tocó,
+                        y vas a recibir otro de tu Secret Friend, pero... ¿quién es? ¡Misterio! Esto se develará cuando
+                        finalice el juego.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-container">
+              <div class="float-layout">
+                <div class="card-image">
+                  <img class="img-fluid d-block" src="./assets/images/friends-12.png">
+                  <div class="card" id="card-text-03">
+                    <div class="card-title">¡Que empice el juego!</div>
+                    <div class="card-desc">
+                      <p>Una vez completado el formulario, podrán visualizar las tarjetas de todos los participantes. ¿Y
+                        luego qué hago?
+                        Haciendo click en la tarjeta con tu nombre, el azar te va a decir quién es tu Secret Friend
+                        al que deberás hacerle un regalo y manenter el secreto. ¡A jugar!</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+    <div class="btn-listar">
+      <a href="./form-participants.html">
+        <button type="button" class="btn-Myinfo" id="btn-participantes">Ingresar Participantes</button>
+      </a>
+    </div>
+  </section>
+  <!-- ***** End Section ***** -->
+
+
+
+  <!-- ***** Section: Participants ***** -->
+  <section class="bg-cyan" id="members">
+    <div class="container">
+      <div class="title-section">
+        <h2> <strong>Participantes de <div class="my-brand"> My Secret Friend</div></strong></h2>
+        <h6 id="this-is-us">
+          <div class="my-brand member-us">Nosotras</div>, que nos conocimos gracias a ellos,<br>
+          los tesoros más preciosos de nuestra vida.<br>
+          <div class="my-brand member-us">Nosotras</div>, que fuimos acompañándonos y aprendiendo juntas a ser
+          mamás,<br>
+          que compartimos alegrías y tristezas.<br>
+          <div class="my-brand member-us">Nosotras</div>, que supimos sostener todo eso a través del tiempo,<br>
+          a pesar de casi no vernos, por ser genuino y verdadero. <br>
+          Acá estamos.<br>
+          Y seguimos creciendo.
+        </h6>
+      </div>
+
+      <!-- First row -->
+      <div class="container">
+        <div class="row">
+          <div class="row1-container">
+            <!-- Participant 1 -->
+            <div class="box pink" data-toggle="modal" data-aos="flip-left" data-aos-offset="100"
+              data-aos-easing="ease-in-sine" data-target="#exampleModal">
+              <img class="member-pic" src="./assets/images/participants/carina.png">
+              <p class="member-names">Carina</p>
+              <hr class="pink-line2">
+              <p>Joven cuarentona, organizadora de todo tipos de eventos.</p>
+            </div>
+            <!-- Modal 1 -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content bg-yellow-light">
+
+                  <div class="modal-header">
+                    <h3 class="modal-title">
+                      ¡Bienvenida <div class="my-brand">Cari</div>!
+                    </h3>
+                  </div>
+
+                  <div class="modal-body">
+                    <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                    <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                    </h6>
+                  </div>
+                  <!-- <input type="hidden" value="Carina" name="to_name" id="to_name">
+                  <input type="hidden" value="srotaka@gmail.com" name="to_email" id="to_email">
+                  <input type="hidden" value="Laura" name="secret_friend" id="secret_friend"> -->
+                  <div class="modal-footer">
+                    <button type="submit" class="btn-Myinfo"
+                      onclick="sendEmail('Carina','srotaka@gmail.com', 'Laura')">Enviar email</button>
+                    <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal 1 -->
+
+            <!-- Participant 2-->
+            <div class="box pink" data-target="#exampleModal2" data-toggle="modal" data-aos="flip-left"
+              data-aos-offset="100" data-aos-easing="ease-in-sine">
+              <img class="member-pic" src="./assets/images/participants/laura.png">
+              <p class="member-names">Laura</p>
+              <hr class="pink-line2">
+              <p>La que cocina para un batallón y la más charlatana del edificio.</p>
+            </div>
+
+            <!-- Modal 2 -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">
+                      ¡Bienvenida <div class="my-brand">Lau</div>!
+                    </h3>
+                  </div>
+
+                  <div class="modal-body">
+                    <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                    <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                    </h6>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn-Myinfo"
+                      onclick="sendEmail('Laura', 'srotaka@gmail.com', 'Luisi')">Enviar email</button>
+                    <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal 2 -->
+
+            <!-- Participant 3 -->
+            <div class="box pink" data-target="#exampleModal3" data-toggle="modal" data-aos="flip-left"
+              data-aos-offset="100" data-aos-easing="ease-in-sine">
+              <img class="member-pic" src="./assets/images/participants/luisina.png">
+              <p class="member-names">Luisina</p>
+              <hr class="pink-line2">
+              <p>¡La que en minutos se baja el pote de dulce de leche!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  ¡Bienvenida <div class="my-brand">Luisi</div>!
+                </h3>
+              </div>
+
+              <div class="modal-body">
+                <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                </h6>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn-Myinfo"
+                  onclick="sendEmail('Luisina', 'srotaka@gmail.com', 'Melina')">Enviar email</button>
+                <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Modal 3 -->
+
+        <!-- Second row -->
+        <div class="row">
+          <div class="row1-container">
+
+            <!-- Participant 4 -->
+            <div class="box pink" data-target="#exampleModal4" data-toggle="modal" data-aos="flip-left"
+              data-aos-offset="100" data-aos-easing="ease-in-sine">
+              <img class="member-pic" src="./assets/images/participants/melina.png">
+              <p class="member-names">Melina</p>
+              <hr class="pink-line2">
+              <p>La que deja todo por una buena picadita y una buena peli.</p>
+            </div>
+
+            <!-- Modal 4 -->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">
+                      ¡Bienvenida <div class="my-brand">Meli</div>!
+                    </h3>
+                  </div>
+
+                  <div class="modal-body">
+                    <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                    <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                    </h6>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn-Myinfo"
+                      onclick="sendEmail('Meli', 'srotaka@gmail.com', 'Melisa')">Enviar email</button>
+                    <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal 4 -->
+
+            <!-- Participant 5 -->
+            <div class="box pink" data-target="#exampleModal5" data-toggle="modal" data-aos="flip-left"
+              data-aos-offset="100" data-aos-easing="ease-in-sine">
+              <img class="member-pic" src="./assets/images/participants/teacher.png">
+              <p class="member-names">Melisa</p>
+              <hr class="pink-line2">
+              <p>Apasionada diseñadora gráfica y genial profesora de FrontEnd.</p>
+            </div>
+
+            <!-- Modal 5 -->
+            <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">
+                      ¡Bienvenida <div class="my-brand">Meli</div>!
+                    </h3>
+                  </div>
+
+                  <div class="modal-body">
+                    <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                    <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                    </h6>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn-Myinfo"
+                      onclick="sendEmail('Meli', 'melisa@adminsoluciones.com', 'Nancy')">Enviar email</button>
+                    <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal 5 -->
+
+            <!-- Participant 6 -->
+            <div class="box pink" data-target="#exampleModal6" data-toggle="modal" data-aos="flip-left"
+              data-aos-offset="100" data-aos-easing="ease-in-sine">
+              <img class="member-pic" src="./assets/images/participants/nancy.png">
+              <p class="member-names">Nancy</p>
+              <hr class="pink-line2">
+              <p>Una acuariana muy amigable, charlatana y alegre.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 6 -->
+        <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  ¡Bienvenida <div class="my-brand">Nan</div>!
+                </h3>
+              </div>
+
+              <div class="modal-body">
+                <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                </h6>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn-Myinfo"
+                  onclick="sendEmail('Nancy', 'srotaka@gmail.com', 'Paola')">Enviar email</button>
+                <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Modal 6 -->
+
+        <!-- Third row -->
+        <div class="row">
+          <div class="row1-container">
+
+            <!-- Participant 7 -->
+            <div class="box pink" data-target="#exampleModal7" data-toggle="modal" data-aos="flip-left"
+              data-aos-offset="100" data-aos-easing="ease-in-sine">
+              <img class="member-pic" src="./assets/images/participants/paola.png">
+              <p class="member-names">Paola</p>
+              <hr class="pink-line2">
+              <p>Mamá luchadora por sus pollitos, capaz de hacer cualquier cosa por ellos. </p>
+            </div>
+
+            <!-- Modal 7 -->
+            <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">
+                      ¡Bienvenida <div class="my-brand">Pao</div>!
+                    </h3>
+                  </div>
+
+                  <div class="modal-body">
+                    <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                    <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                    </h6>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn-Myinfo"
+                      onclick="sendEmail('Paola', 'srotaka@gmail.com', 'Tania')">Enviar email</button>
+                    <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal 7 -->
+
+            <!-- Participant 8 -->
+            <div class="box pink" data-target="#exampleModal8" data-toggle="modal" data-aos="flip-left"
+              data-aos-offset="100" data-aos-easing="ease-in-sine">
+              <img class="member-pic" src="./assets/images/participants/tania.png">
+              <p class="member-names">Tania</p>
+              <hr class="pink-line2">
+              <p>Fono, mamá, hija, hermana, esposa, amiga. Amo Natura. </p>
+            </div>
+
+            <!-- Modal 8 -->
+            <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">
+                      ¡Bienvenida <div class="my-brand">Tania</div>!
+                    </h3>
+                  </div>
+
+                  <div class="modal-body">
+                    <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                    <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                    </h6>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn-Myinfo"
+                      onclick="sendEmail('Tania', 'srotaka@gmail.com', 'Silvi')">Enviar email</button>
+                    <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin Modal 8 -->
+
+            <!-- Participant 9 -->
+            <div class="box pink" data-target="#exampleModal9" data-toggle="modal" data-aos="flip-left"
+              data-aos-offset="100" data-aos-easing="ease-in-sine">
+              <img class="member-pic" src="./assets/images/participants/silvia.png">
+              <p class="member-names">Silvia</p>
+              <hr class="pink-line2">
+              <p>La que menos habla, pero siempre dispuesta a lavar los platos.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Modal 9 -->
+        <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">
+                  ¡Bienvenida <div class="my-brand">Sil</div>!
+                </h3>
+              </div>
+
+              <div class="modal-body">
+                <h5>¡Estás a punto de conocer a tu <div class="my-brand">Secret Friend</div>!</h5>
+                <h6> ¿Estás lista? ¡Claro que sí! <br> Entoncés haz click en el botón y el misterio se develará.
+                </h6>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn-Myinfo"
+                  onclick="sendEmail('Silvi', 'srotaka@gmail.com', 'Carina')">Enviar email</button>
+                <button type="button" class="btn-Myclose" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin Modal 9 -->
+
+      </div>
+    </div>
+  </section>
+  <!-- ***** End Participants ***** -->
+
+  <!-- ***** Form ***** -->
+  <section class="bg-yellow-light">
+    <div class="container mt-5" id="vacio">
+      <div class="title-section" id="cuestionario">
+        <h2> <strong>Cuestionario <div class="my-brand"> My Secret Friend</div></strong></h2>
+        <p>¡Conozcámonos un poco más!</p>
+      </div>
+
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-8">
+          <form id="regForm">
+            <h5 id="register">¿Respondemos unas simples preguntas?</h5>
+            <div class="all-steps" id="all-steps">
+              <span class="step"><i class="fas fa-heart"></i></span>
+              <span class="step"><i class="fas fa-coffee"></i></span>
+              <span class="step"><i class="fas fa-umbrella-beach"></i></span>
+              <span class="step"><i class="fas fa-cheese"></i></span>
+              <!-- <span class="step"><i class="fas fa-hotdog"></i></span> -->
+              <span class="step"><i class="fas fa-hamburger"></i></span>
+              <span class="step"><i class="fas fa-tv"></i></span>
+              <span class="step"><i class="fas fa-utensils"></i></span>
+              <span class="step"><i class="fas fa-birthday-cake"></i></span>
+              <span class="step"><i class="fas fa-concierge-bell"></i></span>
+              <span class="step"><i class="fas fa-car-side"></i></span>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">¿Cuál es tu nombre?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="carina" name="nombre" />
+                    <label class="form-check-label" for="carina"><span class="underline">Carina</span></label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="laura" name="nombre" />
+                    <label class="form-check-label" for="laura"><span class="underline">Laura</span></label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="luisina" name="nombre" />
+                    <label class="form-check-label" for="luisina"><span class="underline">Luisina</span></label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="melina" name="nombre" />
+                    <label class="form-check-label" for="melina"><span class="underline">Melina</span></label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="melisa" name="nombre" />
+                    <label class="form-check-label" for="melisa"><span class="underline">Melisa</span></label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="nancy" name="nombre" />
+                    <label class="form-check-label" for="nancy"><span class="underline">Nancy</span></label>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="paola" name="nombre" />
+                    <label class="form-check-label" for="paola"><span class="underline">Paola</span></label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="tania" name="nombre" />
+                    <label class="form-check-label" for="tania"><span class="underline">Tania</span></label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="silvia" name="nombre" />
+                    <label class="form-check-label" for="silvia"><span class="underline">Silvia</span></label>
+                  </td>
+                </tr>
+
+              </table>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">¿Mate dulce o mate amargo?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="mate-dulce" name="mate" />
+                    <label class="form-check-label" for="mate-dulce">¡Dulce! (como yo)</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="mate-amargo" name="mate" />
+                    <label class="form-check-label" for="mate-amargo">¡Amargo, como corresponde! </label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">¿Team verano o team invierno?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="verano" name="estacion" />
+                    <label class="form-check-label" for="verano">Verano, obviamente.</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="invierno" name="estacion" />
+                    <label class="form-check-label" for="invierno">Invierno for ever.</label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">¿Team dulce o team salado?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="dulce" name="dulce-salado" />
+                    <label class="form-check-label" for="dulce" ¡>Dulce, y empalagoso!</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="salado" name="dulce-salado" />
+                    <label class="form-check-label" for="salado">Salado y abundante.</label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <!-- <div class="tab">
+              <h6 class="form-question">¿Chorizo o morcilla?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="chorizo" name="chori-morci" />
+                    <label class="form-check-label" for="chorizo">Chorizo. Infaltable en todo asado.</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="morcilla" name="chori-morci" />
+                    <label class="form-check-label" for="morcilla">Morcilla. Sin más que agregar.</label>
+                  </td>
+                </tr>
+              </table>
+            </div> -->
+
+            <div class="tab">
+              <h6 class="form-question">¿Pizza o hamburguesas?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="pizza" name="pizza-burger" />
+                    <label class="form-check-label" for="pizza">Pizza, y con mucho queso.</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="hamburguesa" name="pizza-burger" />
+                    <label class="form-check-label" for="hamburguesa">Hamburguesa, completita completita.</label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">¿Cine o Netflix?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="cine" name="cine-net" />
+                    <label class="form-check-label" for="cine">Cine, y con pochoclos.</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="netflix" name="cine-net" />
+                    <label class="form-check-label" for="netflix">Netflix, en la comodiad del living.</label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">¿Cocinar o lavar los platos?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="cocinar" name="lavar-cocinar" />
+                    <label class="form-check-label" for="cocinar">¡Cocinar! Prefiero mi comida.</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="lavar" name="lavar-cocinar" />
+                    <label class="form-check-label" for="lavar">Lavar los platos. </label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">Pasta frola: ¿Batata o membrillo?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="batata" name="frola" />
+                    <label class="form-check-label" for="batata">¡Batata! Nada que discutir.</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="membrillo" name="frola" />
+                    <label class="form-check-label" for="membrillo">¡Membrillo! Lo demás es invento.</label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">Domingos de ¿pastas o asado?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="pastas" name="domingos" />
+                    <label class="form-check-label" for="pastas">Pastas, como los de la nona.</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="asado" name="domingos" />
+                    <label class="form-check-label" for="asado">Asado, y una buena previa.</label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="tab">
+              <h6 class="form-question">¿Cars o Toy Story?</h6>
+              <table class="table">
+                <tr>
+                  <td>
+                    <input type="radio" class="form-check-input" id="cars" name="pelicula" />
+                    <label class="form-check-label" for="cars">Cars ¡Ka Chow!</label>
+                  </td>
+                  <td>
+                    <input type="radio" class="form-check-input" id="toy-story" name="pelicula" />
+                    <label class="form-check-label" for="toy-story">Toy Story ¡Hasta el infinito y más allá!</label>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="thanks-message text-center" id="text-message">
+              <h3>¡Muchas gracias por participar!</h3>
+              <p>¡Espero que te hayas divertido</p>
+              <p>tanto como yo!</p>
+            </div>
+
+            <div id="nextprevious">
+              <div id="nextprevious-buttons">
+                <button type="button" id="prevBtn" class="prevNextBtn" onclick="nextPrev(-1)"><i
+                    class="fa fa-angle-double-left"></i></button>
+                <button type="button" id="nextBtn" class="prevNextBtn" onclick="nextPrev(1)"><i
+                    class="fa fa-angle-double-right"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Modal Stadistics -->
+      <div class="btn-listar">
+        <button type="button" class="btn-Myinfo" id="txt-estadisticas" data-toggle="modal"
+          data-target="#exampleModal10">Ver Resultados</button>
+      </div>
+
+      <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel bg-yellow" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-yellow">
+              <h3 id="my-modal-title">
+                ¡Estos son los resultados de la encuesta de <div class="my-brand"> My Secret Friend</div> !
+              </h3>
+            </div>
+            <div class="modal-body modal-xl card-poll bg-light-blue">
+              <div class="container">
+                <div class="row">
+                  <div class="row1-container">
+                    <!-- Question 01 -->
+                    <div class="box cyan bg-yellow-light poll1" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-mate.png">
+                      <p class="member-names">Mate amargo</p>
+                      <hr class="pink-line">
+                      <p>Mate dulce: 20% <br>
+                        Mate amargo: 80%
+                      </p>
+                    </div>
+
+                    <!-- Question 02-->
+                    <div class="box cyan bg-yellow-light poll2" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-cinema.png">
+                      <p class="member-names">Cine</p>
+                      <hr class="pink-line">
+                      <p>Cine: 55% <br>
+                        Netflix: 45%
+                      </p>
+                    </div>
+
+                    <!-- Question 03 -->
+                    <div class="box cyan bg-yellow-light poll3" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-sandwich.png">
+                      <p class="member-names">Team salado</p>
+                      <hr class="pink-line">
+                      <p>Team dulce: 30% <br>
+                        Team salado: 70%
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Second row -->
+                <div class="row">
+                  <div class="row1-container">
+
+                    <!-- Question 04 -->
+                    <div class="box cyan bg-yellow-light poll4" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-pizza.png">
+                      <p class="member-names">Pizza</p>
+                      <hr class="pink-line">
+                      <p>Pizza: 65% <br>
+                        Hamburguesas: 35%</p>
+                    </div>
+
+                    <!-- Question 05 -->
+                    <div class="box cyan bg-yellow-light poll5" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-summer.png">
+                      <p class="member-names">Verano</p>
+                      <hr class="pink-line">
+                      <p>Team verano: 60% <br>
+                        Team invierno: 40%
+                      </p>
+                    </div>
+                    <!-- Question 06 -->
+                    <div class="box cyan bg-yellow-light poll6" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-dirty.png">
+                      <p class="member-names">Lavar</p>
+                      <hr class="pink-line">
+                      <p>Cocinar: 20% <br>
+                        Lavar los platos: 80%
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Third row -->
+                <div class="row">
+                  <div class="row1-container">
+                    <!-- Question 07 -->
+                    <div class="box cyan bg-yellow-light poll7" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-pie.png">
+                      <p class="member-names">Membrillo</p>
+                      <hr class="pink-line">
+                      <p>Batata: 10% <br>
+                        Membrillo: 90%
+                      </p>
+                    </div>
+
+                    <!-- Question 08 -->
+                    <div class="box cyan bg-yellow-light poll8" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-barbecue.png">
+                      <p class="member-names">Asadito</p>
+                      <hr class="pink-line">
+                      <p>Pastas: 35% <br>
+                        Asado: 75%
+                      </p>
+                    </div>
+
+                    <!-- Question 09 -->
+                    <div class="box cyan bg-yellow-light poll9" data-toggle="modal">
+                      <img class="poll-pic" src="./assets/images/poll-sheriff.png">
+                      <p class="member-names">Toy Story</p>
+                      <hr class="pink-line">
+                      <p>Cars: 45% <br>
+                        Toy Story: 55%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer bg-yellow">
+              <button type="button" class="btn-Myclose" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+        <!-- End Modal Stadistics -->
+      </div>
+  </section>
+  <!-- ***** End Form ***** -->
+
+  <!-- Contact information -->
+  <section class="bg-cyan" id="contacto">
+    <div class="container">
+      <div class="title-section">
+        <h2> <strong>Información de contacto</strong></h2>
+      </div>
+      <div class="container2">
+        <div class="card" data-aos="fade-up">
+          <div class="face face1">
+            <div class="content">
+              <div class="icon">
+                <img src="./assets/images/social-mail.png" alt="social-mail" width="120">
+              </div>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>
+                <a href="mailto:srotaka@gmail.com" target="_blank">srotaka@gmail.com</a>
+              </h3>
+              <p>Siéntete libre de contactarme por cualquier inquietud.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up">
+          <div class="face face1">
+            <div class="content">
+              <div class="icon">
+                <img src="./assets/images/social-linkedin.png" alt="social-linkedin" width="120">
+              </div>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>
+                <a href="https://www.linkedin.com/in/silvia-raquel-otaka/" target="_blank">Mi LikedIn</a>
+              </h3>
+              <p>Puedes encontrarme en LinkedIn.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up">
+          <div class="face face1">
+            <div class="content">
+              <div class="icon">
+                <img src="./assets/images/social-github.png" alt="social-github" width="120">
+              </div>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <h3>
+                <a href="https://github.com/srotaka" target="_blank">github.com/srotaka</a>
+              </h3>
+              <p>Aquí puedes encontrar alguno de mis proyectos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact information -->
+
+  <!-- ***** Contact Form ***** -->
+  <section class="contact-form bg-yellow-light">
+    <!-- <section class="ftco-section"> -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="title-section">
+          <h2> <strong>Formulario de contacto</strong></h2>
+          <p>¡Envíame un mensaje !</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="form-img">
+            <div class="row">
+              <div class="col-md-9 col-lg-7">
+                <div class="contact-wrap w-100 p-md-5 p-4">
+
+                  <div id="form-message-warning" class="mb-4"></div>
+                  <div id="form-message-success" class="mb-4">
+                    Tu mensaje ha sido enviado. ¡Muchas gracias!
+                  </div>
+                  <form action="./forms/contact.php" method="post" role="form" id="contactForm" name="contactForm"
+                    class="contactForm php-email-form">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="label" for="name">Nombre</label>
+                          <input ype="text" name="name" class="form-control" id="name" placeholder="Tu nombre"
+                            data-rule="minlen:4" data-msg="Por favor, ingresa al menos 4 caracteres." />
+                          <div class="validate"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="label" for="email">Email</label>
+                          <input type="email" class="form-control" name="email" id="email" placeholder="mail@mail.com"
+                            data-rule="email" data-msg="Por favor ingresa un email válido" />
+                          <div class="validate"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <br>
+                        <div class="form-group">
+                          <label class="label" for="subject">Asunto</label>
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="..."
+                            data-rule="minlen:4" data-msg="Por favor, ingresa al menos 8 caracteres de asunto." />
+                          <div class="validate"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <br>
+                      <div class="form-group">
+                        <label class="label" for="#">Mensaje</label>
+                        <textarea name="message" class="form-control" id="message" rows="5"
+                          placeholder="Tu mensaje va aquí..." data-rule="required"
+                          data-msg="Por favor, ingresa un mensaje."></textarea>
+                        <div class="validate"></div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <div class="loading">Cargando</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">
+                        Tu mensaje ha sido enviado. ¡Muchas Gracias!
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <br>
+                      <div class="form-group">
+                        <button type="submit" class="btn-Myinfo form-buttom">Enviar</button>
+                        <button type="reset" class="btn-Myinfo form-buttom">Cancelar</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** End Cotact Form ***** -->
+
+
+  <!-- ***** Back to top button ***** -->
+  <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ***** Footer *****-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright text-center">
+        &copy; Copyright 2021-
+        <script>new Date().getFullYear() > 2010 && document.write(new Date().getFullYear());</script> |
+        <strong><span>Silvia Otaka</span></strong> | Programming with ❤ <br />
+      </div>
+    </div>
+  </footer>
+  <!-- ***** End Footer ***** -->
+
+
+  <!-- ***** JS Scripts ***** -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.js"></script>
+  <script src="./assets/js/previous-next.js"></script>
+  <script src="./assets/js/todayDate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
+    </script>
+  <script src="./assets/vendor/jquery/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/back-to-top.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Script para envío de emails con EmailJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>
+  <script src="./assets/js/email-confirmation.js"></script>
+  <script>AOS.init();</script>
+
+</body>
+
+</html>
